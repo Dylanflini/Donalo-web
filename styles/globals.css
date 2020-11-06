@@ -1,0 +1,22 @@
+:root {
+  --var-primary-color:#43a047;
+  --var-primary-light-color:#76d275;
+  --var-primary-dark-color:#00701a;
+  --var-text-color: white;
+  }
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/* 
+* {
+  box-sizing: border-box;
+} */
