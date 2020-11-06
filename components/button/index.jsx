@@ -1,12 +1,6 @@
 import styled from '@emotion/styled'
 import React from 'react'
 
-// type ButtonProps = {
-//   children?: string,
-//   onClick: () => void,
-//   color?: string,
-// }
-
 export const buttonPropsDefault = {
   color: 'var(--var-primary-dark-color)',
   children: 'button',
