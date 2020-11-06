@@ -2,8 +2,7 @@ import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { BranName, Icon, Nav, NavContainer, NavItem } from './styles'
 import styled from '@emotion/styled'
-import { closeSession, getTokenSession } from '../../hooks/getTokenSession'
-import Button from '../button'
+import { getTokenSession } from '../../hooks/getTokenSession'
 
 const CircleIcon = styled.img`
   width: 2rem;

@@ -3,7 +3,7 @@ import useModal from '../modal/useModal'
 import Modal from '../modal'
 
 import { Item, Title, Image, Body, Description } from './styles'
-import Button from '../button'
+import Button from '../Button'
 
 function Itemlist( { image, title, description, category, name } ) {
 

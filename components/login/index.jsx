@@ -7,7 +7,7 @@ import styled from '@emotion/styled'
 
 import 'firebase/auth';
 import { firebaseConfig } from '../../config/fire-config';
-import Button from '../button';
+import Button from '../Button';
 
 if ( !firebase.apps.length ) {
   firebase.initializeApp( firebaseConfig );

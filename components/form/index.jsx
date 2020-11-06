@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '../button';
 import { Div, FormStyle, Group, Input, Label, Select, Upload } from './styles';
 import { useForm } from './useForm';
 
