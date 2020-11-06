@@ -4,13 +4,8 @@ import Modal from '../modal'
 import styled from '@emotion/styled'
 
 import { Item, Title, Image, Body, Description } from './styles'
-export const buttonPropsDefault = {
-    color: 'var(--var-primary-dark-color)',
-    children: 'button',
-  }
   
-  
-  function Button( { children = buttonPropsDefault.children, onClick, color = buttonPropsDefault.color } ) {
+  function Button( { children , onClick, color = 'var(--var-primary-dark-color)' } ) {
   
     const ButtonStyle = styled.button`
     width: 100%;

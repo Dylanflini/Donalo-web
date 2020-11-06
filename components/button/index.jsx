@@ -1,13 +1,7 @@
 import styled from '@emotion/styled'
 import React from 'react'
 
-export const buttonPropsDefault = {
-  color: 'var(--var-primary-dark-color)',
-  children: 'button',
-}
-
-
-function Button( { children = buttonPropsDefault.children, onClick, color = buttonPropsDefault.color } ) {
+function Button( { children = 'button', onClick, color = 'var(--var-primary-dark-color)' } ) {
 
   const ButtonStyle = styled.button`
   width: 100%;
