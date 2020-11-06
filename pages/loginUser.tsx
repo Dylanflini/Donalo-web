@@ -2,14 +2,16 @@ import Head from 'next/head'
 import styled from '@emotion/styled'
 import { List } from '../components/list'
 import AddItem from '../components/add-item'
+import Login from '../components/login'
+
+// import React from 'react'
 
 const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
 `
 
-export default function Home() {
-
+export default function LoginUser( { setUser } ) {
   return (
     <div>
       <Head>
@@ -17,16 +19,8 @@ export default function Home() {
       </Head>
 
       <Container>
-        <List />
-        <AddItem />
+        <Login setUser={ setUser } />
       </Container>
     </div>
   )
-}
-
-Home.getInitialProps = async () => {
-
-  return {
-    // options: await fetchPokemonTypes(),
-  }
 }

@@ -2,6 +2,9 @@ import React from 'react'
 import styled from '@emotion/styled'
 
 const Container = styled.div`
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   display: flex;
   justify-content: center;
   background-color: var(--var-primary-dark-color);
@@ -21,12 +24,3 @@ function Footer() {
 }
 
 export default Footer
-
-
-// <!--?xml version="1.0" encoding="UTF-8"?-->
-// <resources>
-//   <color name="primaryColor">#43a047</color>
-//   <color name="primaryLightColor">#76d275</color>
-//   <color name="primaryDarkColor">#00701a</color>
-//   <color name="primaryTextColor">#fafafa</color>
-// </resources>

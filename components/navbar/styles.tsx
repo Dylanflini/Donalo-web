@@ -6,8 +6,8 @@ export const Nav = styled.nav`
   width:100%;
   height: 50px;
   background-color: var(--var-primary-color);
-  color: var(--var-text-color);
-  padding: 10px;
+  color: var(--var-text-nav-color);
+  padding: 10px 20px;
   display: flex;
   align-items: center;
   box-shadow: 0 3px 1px -1px rgba(0, 0, 0, 0.2),
@@ -24,13 +24,14 @@ export const NavContainer = styled.ul`
 export const NavItem = styled.ul`
   margin: 0;
   padding: 0;
-  padding-right: 2rem;
+  padding-right: 3rem;
+  font-size: 1.2rem;
 `;
 
 export const Icon = styled.img`
-  width: 2rem;
+  width: 3rem;
   display: inline;
-  margin-right: .5rem;
+  margin-right: 1rem;
   &:hover{
     transition: transform .3s;
     transform: scale(1.15);
@@ -39,6 +40,7 @@ export const Icon = styled.img`
 `
 
 export const BranName = styled.span`
+font-size: 1.2rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;

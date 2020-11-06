@@ -8,7 +8,7 @@ type ButtonProps = {
 }
 
 export const buttonPropsDefault = {
-  color: '#2ecc71',
+  color: 'var(--var-primary-dark-color)',
   children: 'button',
 }
 
@@ -16,13 +16,15 @@ export const buttonPropsDefault = {
 function Button( { children = buttonPropsDefault.children, onClick, color = buttonPropsDefault.color }: ButtonProps ) {
 
   const ButtonStyle = styled.button`
+  width: 100%;
+  max-width: 300px;
   position: relative;
   display: block;
-  margin: 10px auto;
+  margin: 1rem auto;
   padding: 0;
   overflow: hidden;
   border-width: 0;
-  border-radius: 2px;
+  border-radius: var(--var-border);
   box-shadow: 0 3px 1px -1px rgba(0, 0, 0, 0.2),
       0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(231, 148, 148, 0.12);
   background-color: ${ color };

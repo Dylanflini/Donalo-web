@@ -1,9 +1,24 @@
 :root {
-  --var-primary-color:#43a047;
-  --var-primary-light-color:#76d275;
-  --var-primary-dark-color:#00701a;
-  --var-text-color: white;
-  }
+  --var-primary-color: #43a047;
+  --var-primary-light-color: #76d275;
+  --var-primary-dark-color: #00701a;
+  --var-text-nav-color: white;
+  --var-background-color: rgba(185, 184, 184, 0.4);
+  --var-text-color: black;
+  --var-navbar-height: 70px;
+  --var-border: 4px;
+  --var-font-size: 1rem;
+
+  /* --var-background-color: hsla(0, 100%, 100%, 1); */
+  /* --var-text-color: hsla(120, 6%, 6%, 0.9); */
+  /* --var-primary-color: hsla(32, 69%, 43%, 0.966); */
+  --var-second-color: black;
+  --var-validation-color: hsla(123, 80%, 50%, 0.9);
+  --var-valid-color: hsla(123, 80%, 50%, 0.9);
+  --var-invalid-color: hsla(0, 90%, 50%, 0.9);
+  --var-bar-color: hsla(0, 3%, 12%, 0.9);
+  --var-background-selection: orange;
+}
 
 html,
 body {
